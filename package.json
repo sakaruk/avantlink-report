@@ -1,0 +1,21 @@
+{
+  "author": "@sakaruk/avantlink-report",
+  "name": "avantlink-report",
+  "description": "AvantLink Affiliate Network Reports",
+  "keywords": [
+    "avantlink",
+    "report"
+  ],
+  "version": "1.0.0",
+  "main": "./lib/avantlink",
+  "dependencies": {
+    "request": "*",
+    "csv": "*"
+  },
+  "scripts": {
+    "test": "mocha --timeout 100000 -R spec"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
