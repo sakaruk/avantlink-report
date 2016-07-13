@@ -6,12 +6,19 @@
     "avantlink",
     "report"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/avantlink",
   "dependencies": {
     "request": "*",
     "csv": "*"
   },
+  "bugs": {
+    "url": "https://github.com/sakaruk/avantlink-report/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sakaruk/avantlink-report"
+  }
   "scripts": {
     "test": "mocha --timeout 100000 -R spec"
   },
